@@ -14,4 +14,9 @@ app.get('/map01', function(request, response) {
     response.sendFile(path.join(__dirname + '/views/map01.html'));
 });
 
+
+app.get('/map02', function(request, response) {
+    response.sendFile(path.join(__dirname + '/views/map02.html'));
+});
+
 app.listen(3000);
